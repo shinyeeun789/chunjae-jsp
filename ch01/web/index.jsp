@@ -34,6 +34,8 @@
     <a href="test01.jsp"> 테스트1 </a> <br>
     <a href="test02.jsp"> 로그인 폼 테스트 </a> <br>
     <a href="test03.jsp"> 복수 개의 값 전송 </a> <br>
-    <a href="test04.jsp?msg=한시간남았네"> 요청 정보 및 헤더 정보 </a>
+    <a href="test04.jsp?msg=한시간남았네"> 요청 정보 및 헤더 정보 </a> <br>
+    <a href="test05.jsp"> 로그인 폼 - Response 연습 </a> <br>
+    <a href="test06.jsp"> 서블릿에서 jsp 6객체 만들기 </a>
   </body>
 </html>
