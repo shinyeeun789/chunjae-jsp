@@ -41,7 +41,7 @@
         //서블릿에서 exception 객체 만드는 법
         //Exception exception = pageContext.getException();
 
-        
+
         // 서블릿에서 해당 객체를 만드는 방법
         JspWriter pageOut = pageContext.getOut();
         out.println("<h2>out : 출력 객체 </h2>");
