@@ -1,4 +1,7 @@
-package dao;
+package test;
+
+import dao.DBC;
+import dao.MariaDBCon;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
