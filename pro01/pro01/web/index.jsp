@@ -16,14 +16,14 @@
 
     <!-- 필요한 플러그인 연결 -->
     <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <link rel="stylesheet" href="common.css">
-    <link rel="stylesheet" href="hd.css">
+
+    <link rel="stylesheet" href="./css/index.css">
+
     <style>
         /* 본문 영역 스타일 */
         .contents { clear:both; }
         .contents::after { content:""; clear:both; display:block; width:100%; }
-        .vs { clear:both; width:100%; min-height:600px; background-color: deeppink;
-            position:relative; overflow:hidden; }
+        .vs { clear:both; width:100%; min-height:600px; position:relative; overflow:hidden; }
         .img_box { position:relative; width: 100%; height:600px; overflow:hidden; }
         .img_box li { visibility:hidden; opacity:0;  transition-duration:0.7s;
             transition-delay:0.1s;    width:100%; height:600px;  }
@@ -31,8 +31,8 @@
             background-position:center center; background-size:cover; position:absolute;
             left: 0; top: 0; z-index:5; }
         .img_box li.active .bg_box { z-index:6; }
-        .img_box li.item1 .bg_box { background-image: url("./images/img_main_keyVisual01_summer.jpg"); }
-        .img_box li.item2 .bg_box { background-image: url("./images/img_main_keyVisual03.jpg"); }
+        .img_box li.item1 .bg_box { background-image: url("./images/vs1.jpg"); }
+        .img_box li.item2 .bg_box { background-image: url("./images/vs2.jpg"); }
         .img_box li .vs_tit { position:absolute; top:180px; left:100px; z-index:10;
             font-weight: 300; font-size: 60px; line-height: 1.3; }
         .img_box li .vs_tit strong { font-weight: 500; }
@@ -66,9 +66,9 @@
         .pic_lst { clear:both; width: 1200px; margin: 60px auto; }
         .pic_lst li { width: 280px; margin-right:26px; height: 400px; float:left;
             background-repeat: no-repeat; background-position:center center;
-            filter:brightness(90%); margin-top:30px; transition:0.4s;
+            filter:brightness(50%); margin-top:30px; transition:0.4s;
             box-shadow:12px 12px 12px #999; overflow:hidden;  }
-        .pic_lst li:hover { filter:brightness(140%); margin-top: -10px; }
+        .pic_lst li:hover { filter:brightness(100%); margin-top: -10px; }
         .pic_lst li a { display:block; width: 256px; height: 376px; margin: 11px;
             border:1px solid #fff; color:#fff; }
         .pic_lst li:last-child { margin-right: 0; }
@@ -89,8 +89,7 @@
         #page2 .page_wrap { width: 100%; }
         .slide_box::-webkit-scrollbar { display:none; }
         .slide_box { clear:both; width:calc(100vw - 350px); height:400px;
-            margin-left: 350px;  -ms-overflow-style:none;
-            scrollbar-width:none; }
+            margin-left: 350px;  -ms-overflow-style:none; scrollbar-width:none; }
 
         .page_com { text-align: center; padding-bottom: 30px; padding-top: 30px;  }
         .card_lst { width: 4000px; }

@@ -3,6 +3,11 @@
     String path1 = request.getContextPath();
     String sid = (String) session.getAttribute("id");
 %>
+
+<!--
+!!! header는 index.jsp에 두는 이유 !!!
+- 해당 페이지에만 존재하는 메뉴가 있을 수도 있기 때문에
+-->
 <div class="hd_wrap">
     <nav class="tnb">
         <ul class="menu">
@@ -22,7 +27,7 @@
     </nav>
 </div>
 <div class="hd_wrap">
-    <a href="<%=path1 %>" class="logo">
+    <a href="/" class="logo">
         <img src="<%=path1 %>/images/chunjae1.png" alt="천재IT교육센터 로고타입">
     </a>
     <nav class="gnb">

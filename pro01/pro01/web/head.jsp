@@ -56,3 +56,10 @@
 <link rel="icon" href="<%=path %>/images/logo_32.png" sizes="32x32">
 <link rel="icon" href="<%=path %>/images/logo_48.png" sizes="48x48">
 <link rel="icon" href="<%=path %>/images/logo_64.png" sizes="64x64">
+
+<!-- 불펌 방지 -->
+<script>
+    document.oncontextmenu = function() { return false; }
+    document.ondragstart = function() { return false; }
+    document.onselectstart = function() { return false; }
+</script>
