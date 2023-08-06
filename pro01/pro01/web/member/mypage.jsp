@@ -78,7 +78,7 @@
         .frm { clear:both; width:1200px; margin:0 auto; padding-top: 80px; }
 
         .tb1 { width:500px; margin: 120px auto; }
-        .tb1 th { width: 500px; border-bottom: 1px solid #333; background-color: cadetblue;border-top: 1px solid #333; }
+        .tb1 th { width: 500px; border-bottom: 1px solid #333; background-color: cadetblue; border-top: 1px solid #333; }
         .tb1 td { width:310px; line-height: 32px; padding-top:8px; padding-bottom:8px; padding-left: 14px; border-top: 1px solid #333;}
 
         .indata { display:inline-block; width: 500px; height: 48px; line-height: 48px;

@@ -42,7 +42,7 @@
         .tb1 { width:500px; margin:50px auto; }
         .tb1 th { width:180px; line-height:32px; padding-top:8px; padding-bottom:8px;
         border-top:1px solid #333; border-bottom:1px solid #333;
-            background-color:deepskyblue; color:#fff; }
+            background-color:cadetblue; color:#fff; }
         .tb1 td { width:310px; line-height:32px; padding-top:8px; padding-bottom:8px;
             border-bottom:1px solid #333;
             padding-left: 14px; border-top:1px solid #333; }
@@ -122,14 +122,14 @@
                     if(ck_item.value!="yes"){
                         alert("아이디 중복 검사를 진행하시기 바랍니다.");
                         frm.id.focus();
-                        return;
+                        return false;
                     }
-                    var pw = frm.pw;
-                    var pw2 = frm.pw2;
+                    var pw = frm.pw.value;
+                    var pw2 = frm.pw2.value;
                     if(pw!=pw2){
                         alert("비밀번호와 비밀번호 확인이 서로 다릅니다.");
                         pw.focus();
-                        return;
+                        return false;
                     }
                 }
                 function idcheck(){
@@ -141,7 +141,7 @@
                     } else {
                         alert("아이디 입력란에 아이디를 입력하고, 진행하시기 바랍니다.");
                         id.focus();
-                        return;
+                        return false;
                     }
                 }
                 </script>
