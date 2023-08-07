@@ -11,13 +11,15 @@
     <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" rel="stylesheet">
 
     <!-- 필요한 폰트를 로딩 : 구글 웹 폰트에서 폰트를 선택하여 해당 내용을 붙여 넣기 -->
-    <link rel="stylesheet" href="google.css">
-    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="./css/google.css">
+    <link rel="stylesheet" href="./css/fonts.css">
 
     <!-- 필요한 플러그인 연결 -->
     <script src="https://code.jquery.com/jquery-latest.js"></script>
 
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/hd.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/ft.css">
 
     <style>
         /* 본문 영역 스타일 */
@@ -135,8 +137,6 @@
         .sl-btn-box .btn.next { top:100px; }
         .sl-btn-box .btn.prev { top:148px; }
     </style>
-
-    <link rel="stylesheet" href="ft.css">
 </head>
 <body>
 <div class="wrap">

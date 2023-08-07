@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" language="java" %>
 <%
     String path1 = request.getContextPath();
-    String sid = (String) session.getAttribute("id");
+    String sid = session.getAttribute("id")!=null ? (String) session.getAttribute("id") : null;
 %>
 
 <!--
@@ -60,8 +60,9 @@
                 </ul>
             </li>
             <li class="item4">
-                <a href="promotion.html" class="dp1">홍보</a>
+                <a href="/board/boardList.jsp" class="dp1">홍보</a>
                 <ul class="sub">
+                    <li><a href="/board/boardList.jsp">공지사항</a></li>
                     <li><a href="promotion.html#news">언론보도</a></li>
                     <li><a href="promotion.html#pr">광고</a></li>
                     <li><a href="promotion.html#sns">SNS</a></li>

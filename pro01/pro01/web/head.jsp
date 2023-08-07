@@ -63,3 +63,10 @@
     document.ondragstart = function() { return false; }
     document.onselectstart = function() { return false; }
 </script>
+
+<!-- UTF-8 설정 -->
+<%
+    request.setCharacterEncoding("UTF-8");
+    response.setContentType("text/html; charset=UTF-8");
+    response.setCharacterEncoding("UTF-8");
+%>

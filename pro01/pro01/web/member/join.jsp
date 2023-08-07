@@ -42,7 +42,7 @@
         .tb1 { width:500px; margin:50px auto; }
         .tb1 th { width:180px; line-height:32px; padding-top:8px; padding-bottom:8px;
         border-top:1px solid #333; border-bottom:1px solid #333;
-            background-color:cadetblue; color:#fff; }
+            background-color:deepskyblue; color:#fff; }
         .tb1 td { width:310px; line-height:32px; padding-top:8px; padding-bottom:8px;
             border-bottom:1px solid #333;
             padding-left: 14px; border-top:1px solid #333; }
