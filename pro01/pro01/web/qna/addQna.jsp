@@ -1,20 +1,30 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
+<%@ include file="../encoding.jsp" %>
+<%
+    int lev = Integer.parseInt(request.getParameter("lev"));
+    int par = Integer.parseInt(request.getParameter("par"));
+
+    String sel = "";
+    if(lev == 0) {
+        sel="질문";
+    } else {
+        sel="답변";
+    }
+%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> 공지사항 글 작성 </title>
-    <%@include file="../head.jsp"%>
+    <title> <%=sel %> 글 등록 </title>
 
-    <!-- 필요한 폰트를 로딩 : 구글 웹 폰트에서 폰트를 선택하여 해당 내용을 붙여 넣기 -->
     <link rel="stylesheet" href="../css/google.css">
     <link rel="stylesheet" href="../css/fonts.css">
 
-    <!-- 스타일 시트 추가하기 -->
-    <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/hd.css">
+    <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/ft.css">
+
     <style>
         .contents { clear:both; min-height:100vh;
             background-image: url("../images/bg_visual_overview.jpg");
@@ -52,30 +62,34 @@
         <header class="hd" id="hd">
             <%@ include file="../header.jsp" %>
         </header>
-        <div class="contents" id="contents">
+        <div class="contents">
             <div class="breadcrumb">
-                <p><a href="/"> HOME </a> &gt; <a href="/board/boardList.jsp"> 공지사항 </a> &gt; <span> 공지사항 목록 </span></p>
+                <p><a href="/"> HOME </a> &gt; <a href="/qna/qnaList.jsp">  묻고 답하기 </a> &gt; <span> <%=sel %> 글 작성 </span></p>
             </div>
             <section class="page" id="page1">
                 <div class="page_wrap">
-                    <h2 class="page_tit"> 공지사항 글 작성하기 </h2>
-                    <form action="addBoardpro.jsp" method="post">
+                    <h2 class="page_tit"> <%=sel %> 글 작성하기 </h2>
+                    <form action="addQnapro.jsp" method="post">
                         <table class="tb1">
                             <tbody>
                             <tr>
-                                <th><label for="title"> 글 제목 </label></th>
-                                <td><input type="text" id="title" name="title" class="intxt" required></td>
+                                <th><label for="title"> 제목 </label></th>
+                                <td>
+                                    <input type="text" id="title" name="title" class="intxt" required>
+                                    <input type="hidden" name="lev" id="lev" value="<%=lev %>">
+                                    <input type="hidden" name="par" id="par" value="<%=par %>">
+                                    <input type="hidden" name="author" id="author" value="<%=sid %>">
+                                </td>
                             </tr>
                             <tr>
                                 <th><label for="content"> 글 내용 </label></th>
                                 <td>
                                     <textarea name="content" id="content" cols="84" rows="10" maxlength="990"></textarea>
-                                    <input type="text" value="<%=sid%>" id="author" name="author" class="intxt" hidden>
                                 </td>
                             </tr>
                             <tr>
                                 <td colspan="2">
-                                    <input type="submit" value="작성하기" class="inbtn">
+                                    <input type="submit" value="<%=sel %>글 등록하기" class="inbtn">
                                     <input type="reset" value="취소하기" class="inbtn">
                                 </td>
                             </tr>

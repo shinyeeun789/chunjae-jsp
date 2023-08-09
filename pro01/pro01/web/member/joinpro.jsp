@@ -3,6 +3,9 @@
 <%@ page import="java.util.*" %>
 <%@ page import="com.chunjae.db.*" %>
 <%@ page import="com.chunjae.dto.*" %>
+
+<%@ include file="../encoding.jsp" %>
+
 <%
     int cnt = 0;
 

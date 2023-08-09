@@ -1,22 +1,25 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <%@ page import="java.sql.*" %>
-<%@ page import="java.util.*" %>
-<%@ page import="com.chunjae.dto.Board" %>
 <%@ page import="com.chunjae.db.*" %>
+<%@ page import="com.chunjae.vo.*" %>
 <%@ page import="java.text.SimpleDateFormat" %>
+<%@ page import="java.util.*" %>
 <%@ page import="java.util.Date" %>
+
+<%@ include file="../encoding.jsp" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> 상세 글 보기 </title>
+    <title> 질문 및 답변 수정 </title>
     <%@include file="../head.jsp"%>
 
     <!-- 필요한 폰트를 로딩 : 구글 웹 폰트에서 폰트를 선택하여 해당 내용을 붙여 넣기 -->
     <link rel="stylesheet" href="../css/google.css">
     <link rel="stylesheet" href="../css/fonts.css">
 
+    <!-- 스타일 시트 추가하기 -->
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/hd.css">
     <link rel="stylesheet" href="../css/ft.css">
@@ -43,40 +46,37 @@
             background-color:deepskyblue; color:#fff; }
         .tb1 td { width: 80%; line-height:32px; padding-top:8px; padding-bottom:8px; border-bottom:1px solid #333; border-top:1px solid #333; padding-left: 15px; }
 
+        .intxt { width: 97%; line-height: 32px; padding: 5px; }
+        .tb1 td textarea { width: 97%; padding: 5px; }
+
         .inbtn { display:block; border-radius:100px; min-width:140px; padding-left: 24px; padding-right: 24px; text-align: center;
             line-height: 48px; background-color: #333; color:#fff; font-size: 18px; }
         .inbtn:first-of-type { float:left; }
         .inbtn:last-of-type { float:right; }
     </style>
-<%
-    int bno = Integer.parseInt(request.getParameter("bno"));
 
-    Connection con = null;
+<%
+    int qno = Integer.parseInt(request.getParameter("qno"));
+    Connection conn = null;
     PreparedStatement pstmt = null;
     ResultSet rs = null;
 
-    DBC conn = new MariaDBCon();
-    con = conn.connect();
-    String sql = "SELECT * FROM board WHERE bno = ?";
-    pstmt = con.prepareStatement(sql);
-    pstmt.setInt(1, bno);
+    DBC con = new MariaDBCon();
+    conn = con.connect();
+    String sql = "select qno, name, author, title, content, resdate from qna a, member b where a.author=b.id and qno=?";
+    pstmt = conn.prepareStatement(sql);
+    pstmt.setInt(1, qno);
     rs = pstmt.executeQuery();
 
-    Board bd = new Board();
+    Qna qna = new Qna();
     if(rs.next()) {
-        bd.setBno(rs.getInt("bno"));
-        bd.setTitle(rs.getString("title"));
-        bd.setContent(rs.getString("content"));
-        bd.setAuthor(rs.getString("author"));
-        bd.setResdate(rs.getString("resdate"));
-        bd.setCnt(rs.getInt("cnt"));
+        qna.setQno(rs.getInt("qno"));
+        qna.setName(rs.getString("name"));
+        qna.setAuthor(rs.getString("author"));
+        qna.setTitle(rs.getString("title"));
+        qna.setContent(rs.getString("content"));
+        qna.setResdate(rs.getString("resdate"));
     }
-
-    conn.close(rs, pstmt, con);
-
-    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-    Date d = sdf.parse(bd.getResdate());
-    String resdate = sdf.format(d);
 %>
 </head>
 <body>
@@ -86,48 +86,46 @@
         </header>
         <div class="contents" id="contents">
             <div class="breadcrumb">
-                <p><a href="/"> HOME </a> &gt; <a href="/board/boardList.jsp"> 공지사항 </a> &gt; <span> 상세 글 보기 </span></p>
+                <p><a href="/"> HOME </a> &gt; <a href="/qna/qnaList.jsp">  묻고 답하기</a> &gt; <span> 질문 및 답변 글 수정 </span></p>
             </div>
             <section class="page" id="page1">
                 <div class="page_wrap">
-                    <h2 class="page_tit"> 상세 글 보기 </h2>
-                    <table class="tb1">
-                        <tbody>
+                    <h2 class="page_tit"> 질문 및 답변 글 수정하기 </h2>
+                    <form action="updateQnapro.jsp" method="post">
+                        <table class="tb1">
+                            <tbody>
+                            <%
+                                SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+                                Date d = sdf.parse(qna.getResdate());
+                                String date = sdf.format(d);
+                            %>
                             <tr>
-                                <th> 글 번호 </th>
-                                <td> <%=bd.getBno() %> </td>
-                            </tr>
-                            <tr>
-                                <th> 글 제목 </th>
-                                <td> <%=bd.getTitle() %> </td>
+                                <th> 글번호 </th>
+                                <td><input type="text" value="<%=qna.getQno()%>" id="qno" name="qno" class="intxt" readonly></td>
                             </tr>
                             <tr>
                                 <th> 작성자 </th>
-                                <td> <%=bd.getAuthor() %> </td>
+                                <td><input type="text" value="<%=qna.getName()%>" id="name" name="name" class="intxt" readonly></td>
                             </tr>
                             <tr>
-                                <th> 글 내용 </th>
-                                <td> <%=bd.getContent() %> </td>
+                                <th> 제목 </th>
+                                <td><input type="text" value="<%=qna.getTitle() %>" id="title" name="title" class="intxt"></td>
+                            </tr>
+                            <tr>
+                                <th> 내용 </th>
+                                <td><textarea name="content" id="content" cols="84" rows="10"><%=qna.getContent() %></textarea></td>
                             </tr>
                             <tr>
                                 <th> 작성일 </th>
-                                <td> <%=resdate %> </td>
+                                <td><input type="text" id="resdate" name="resdate" value="<%=date %>" class="intxt" readonly></td>
                             </tr>
-                            <tr>
-                                <th> 조회수 </th>
-                                <td> <%=bd.getCnt() %> </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div class="btn_group">
-                        <br><hr><br>
-                        <% if (sid.equals("admin") || sid.equals(bd.getAuthor())) { %>
-                            <a href="/board/updateBoard.jsp?bno=<%=bd.getBno() %>" class="inbtn"> 글 수정 </a>
-                            <a href="/board/delBoard.jsp?bno=<%=bd.getBno() %>" class="inbtn"> 글 삭제 </a>
-                        <% } else { %>
-                            <a href="/board/boardList.jsp" class="inbtn"> 글 목록 </a>
-                        <% } %>
-                    </div>
+                            </tbody>
+                        </table>
+                        <div class="btn_group">
+                            <br><hr><br>
+                            <input type="submit" value="수정하기" class="inbtn">
+                        </div>
+                    </form>
                 </div>
             </section>
         </div>
