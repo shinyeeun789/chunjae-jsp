@@ -98,64 +98,66 @@
     <script src="../css/jquery.dataTables.js"></script>
 </head>
 <body>
-    <header class="hd" id="hd">
-        <%@ include file="../header.jsp" %>
-    </header>
-    <div class="contents" id="contents">
-        <div class="breadcrumb">
-            <p><a href="/"> HOME </a> &gt; <a href="/qna/qnaList.jsp"> 묻고 답하기 </a> &gt; <span> 묻고 답하기 목록 </span></p>
-        </div>
-        <section class="page" id="page1">
-            <div class="page_wrap">
-                <h2 class="page_tit"> 묻고 답하기 목록 </h2>
-                <table class="tb1" id="myTable">
-                    <thead>
-                    <th class="item1"> 글번호 </th>
-                    <th class="item2"> 제목 </th>
-                    <th class="item3"> 작성자 </th>
-                    <th class="item4"> 작성일 </th>
-                    </thead>
-                    <tbody>
-                    <%
-                        SimpleDateFormat sdf = new SimpleDateFormat("yy-MM-dd");              // 한글 지원 X
-                        int tot = qnaList.size();
-                        for(Qna q : qnaList) {
-                            Date d = sdf.parse(q.getResdate());
-                            String date = sdf.format(d);
-                    %>
+    <div class="container">
+        <header class="hd" id="hd">
+            <%@ include file="../header.jsp" %>
+        </header>
+        <div class="contents" id="contents">
+            <div class="breadcrumb">
+                <p><a href="/"> HOME </a> &gt; <a href="/qna/qnaList.jsp"> 묻고 답하기 </a> &gt; <span> 묻고 답하기 목록 </span></p>
+            </div>
+            <section class="page" id="page1">
+                <div class="page_wrap">
+                    <h2 class="page_tit"> 묻고 답하기 목록 </h2>
+                    <table class="tb1" id="myTable">
+                        <thead>
+                        <th class="item1"> 글번호 </th>
+                        <th class="item2"> 제목 </th>
+                        <th class="item3"> 작성자 </th>
+                        <th class="item4"> 작성일 </th>
+                        </thead>
+                        <tbody>
+                        <%
+                            SimpleDateFormat sdf = new SimpleDateFormat("yy-MM-dd");              // 한글 지원 X
+                            int tot = qnaList.size();
+                            for(Qna q : qnaList) {
+                                Date d = sdf.parse(q.getResdate());
+                                String date = sdf.format(d);
+                        %>
                         <tr>
                             <td class="item1"><%=tot %></td>
                             <td class="item2">
-                            <% if(q.getLev() == 0) { %>
+                                <% if(q.getLev() == 0) { %>
                                 <a href="/qna/getQna.jsp?qno=<%=q.getQno() %>"><%=q.getTitle()%></a>
-                            <% } else { %>
+                                <% } else { %>
                                 <a style="padding-left: 28px" href="/qna/getQna.jsp?qno=<%=q.getQno() %>"> [답변] <%=q.getTitle()%> </a>
-                            <% } %>
+                                <% } %>
                             </td>
                             <td class="item3"><%=q.getName() %></td>
                             <td class="item4"><%=date %></td>
                         </tr>
-                    <%      tot--;
+                        <%      tot--;
                         } %>
-                    </tbody>
-                </table>
-                <script>
-                    $(document).ready(function() {
-                        $('#myTable').DataTable({
-                            order: [[0, "desc"]]
+                        </tbody>
+                    </table>
+                    <script>
+                        $(document).ready(function() {
+                            $('#myTable').DataTable({
+                                order: [[0, "desc"]]
+                            });
                         });
-                    });
-                </script>
-                <div class="btn_group">
-                    <% if(sid != null) { %>
+                    </script>
+                    <div class="btn_group">
+                        <% if(sid != null) { %>
                         <a class="inbtn" href="/qna/addQna.jsp?lev=0&par=0"> 질문하기 </a>
-                    <% } %>
+                        <% } %>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
+        <footer class="ft" id="ft">
+            <%@ include file="../footer.jsp" %>
+        </footer>
     </div>
-    <footer class="ft" id="ft">
-        <%@ include file="../footer.jsp" %>
-    </footer>
 </body>
 </html>
