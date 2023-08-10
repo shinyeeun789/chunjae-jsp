@@ -57,15 +57,18 @@
                     <li><a href="social.html#support">지역사회후원</a></li>
                     <li><a href="social.html#academy">학회지원</a></li>
                     <li><a href="social.html#school">공교육지원</a></li>
+                    <li><a href="social.html#test">사교육지원</a></li>
                 </ul>
             </li>
             <li class="item4">
-                <a href="/board/boardList.jsp" class="dp1">홍보</a>
+                <a href="/board/boardList.jsp" class="dp1">커뮤니티</a>
                 <ul class="sub">
                     <li><a href="/board/boardList.jsp">공지사항</a></li>
                     <li><a href="/qna/qnaList.jsp">묻고 답하기</a></li>
                     <li><a href="/faq/faqList.jsp"> FAQ </a></li>
-                    <li><a href="promotion.html#pr">광고</a></li>
+                    <% if(sid != null) { %>
+                        <li><a href="/faq/online.jsp"> 온라인 상담 </a></li>
+                    <% } %>
                     <li><a href="promotion.html#sns">SNS</a></li>
                 </ul>
             </li>

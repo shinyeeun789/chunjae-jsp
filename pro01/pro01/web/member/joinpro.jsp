@@ -3,6 +3,7 @@
 <%@ page import="java.util.*" %>
 <%@ page import="com.chunjae.db.*" %>
 <%@ page import="com.chunjae.dto.*" %>
+<%@ page import="com.chunjae.util.*" %>
 
 <%@ include file="../encoding.jsp" %>
 
@@ -11,6 +12,7 @@
 
     String id = request.getParameter("id");
     String pw = request.getParameter("pw");
+    pw = AES256.sha256(pw);                     // 비밀번호 암호화
     String name = request.getParameter("name");
     String email = request.getParameter("email");
     String tel = request.getParameter("tel");
