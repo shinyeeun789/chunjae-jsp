@@ -24,7 +24,7 @@
         <li><a href="test12.jsp"> JSTL Basic </a></li>
         <li><a href="test13.jsp"> JSTL fmt </a></li>
         <li><a href="test14.jsp"> JSTL Other </a></li>
-        <li><a href=""></a></li>
+        <li><a href="test15.jsp"> 액션태그1 - useBean/forward </a></li>
         <li><a href=""></a></li>
         <li><a href=""></a></li>
         <li><a href=""></a></li>
