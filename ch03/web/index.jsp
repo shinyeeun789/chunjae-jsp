@@ -19,8 +19,8 @@
         <li><a href="test08.jsp"> EL Data Form </a></li>
         <li><a href="Test09JavaCtrl.do"> Java Servlet Ctrl Test </a></li>
         <li><a href="test10.jsp"> Java EL Operation </a></li>
-        <li><a href="test11.jsp?noVar=20"></a></li>
-        <li><a href=""></a></li>
+        <li><a href="test11.jsp?noVar=20"> EL Aided </a></li>
+        <li><a href="login.jsp"> 로그인 </a></li>
       </ul>
     </nav>
   </body>
