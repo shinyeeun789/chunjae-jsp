@@ -18,8 +18,8 @@
         <li><a href="test07.jsp"> Expression Language Objects </a></li>
         <li><a href="test08.jsp"> EL Data Form </a></li>
         <li><a href="Test09JavaCtrl.do"> Java Servlet Ctrl Test </a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
+        <li><a href="test10.jsp"> Java EL Operation </a></li>
+        <li><a href="test11.jsp?noVar=20"></a></li>
         <li><a href=""></a></li>
       </ul>
     </nav>
