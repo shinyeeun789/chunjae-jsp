@@ -23,7 +23,7 @@
         <li><a href="login.jsp"> 로그인 </a></li>
         <li><a href="test12.jsp"> JSTL Basic </a></li>
         <li><a href="test13.jsp"> JSTL fmt </a></li>
-        <li><a href=""></a></li>
+        <li><a href="test14.jsp"> JSTL Other </a></li>
         <li><a href=""></a></li>
         <li><a href=""></a></li>
         <li><a href=""></a></li>
