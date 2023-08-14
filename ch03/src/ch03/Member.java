@@ -1,12 +1,22 @@
 package ch03;
 
 public class Member {
-
     private int no;
     private String id;
     private String pw;
     private String name;
     private int point;
+
+    public Member() {
+    }
+
+    public Member(int no, String id, String pw, String name, int point) {
+        this.no = no;
+        this.id = id;
+        this.pw = pw;
+        this.name = name;
+        this.point = point;
+    }
 
     public int getNo() {
         return no;
@@ -58,5 +68,4 @@ public class Member {
                 ", point=" + point +
                 '}';
     }
-
 }
