@@ -21,6 +21,16 @@
         <li><a href="test10.jsp"> Java EL Operation </a></li>
         <li><a href="test11.jsp?noVar=20"> EL Aided </a></li>
         <li><a href="login.jsp"> 로그인 </a></li>
+        <li><a href="test12.jsp"> JSTL Basic </a></li>
+        <li><a href="test13.jsp">  </a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
       </ul>
     </nav>
   </body>
