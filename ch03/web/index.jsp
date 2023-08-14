@@ -16,8 +16,8 @@
         <li><a href="test05.jsp"> request 헤더 정보 </a></li>
         <li><a href="test06.jsp"> Expression Language </a></li>
         <li><a href="test07.jsp"> Expression Language Objects </a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
+        <li><a href="test08.jsp"> EL Data Form </a></li>
+        <li><a href="Test09JavaCtrl.do"> Java Servlet Ctrl Test </a></li>
         <li><a href=""></a></li>
         <li><a href=""></a></li>
         <li><a href=""></a></li>
