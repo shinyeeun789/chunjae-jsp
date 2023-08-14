@@ -21,10 +21,11 @@
     <hr>
     <h2> ArrayList로 온 데이터 </h2>
     <ul>
-        <c:forEach var="l" items="${list }">
-            <li> ${l} </li>
+        <c:forEach var="name" items="${list }">
+            <li> ${name} </li>
         </c:forEach>
     </ul>
+    <hr>
     <h2> map으로 온 Map 데이터 </h2>
     <ul>
         <c:forEach var="i" items="${map }">
@@ -32,6 +33,17 @@
         </c:forEach>
     </ul>
     <hr>
-
+    <h2> ArrayList&lt;Member&gt;로 온 데이터 </h2>
+    <ul>
+        <c:forEach var="member" items="${mList }">
+            <li>
+                <p> 번호 : ${member.no} </p>
+                <p> 번호 : ${member.id} </p>
+                <p> 번호 : ${member.pw} </p>
+                <p> 번호 : ${member.name} </p>
+                <p> 번호 : ${member.point} </p>
+            </li>
+        </c:forEach>
+    </ul>
 </body>
 </html>

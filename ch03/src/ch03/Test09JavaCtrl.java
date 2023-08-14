@@ -26,9 +26,15 @@ public class Test09JavaCtrl extends HttpServlet {
         map.put("height", "162.5");
         map.put("weight", "50");
 
+        List<Member> mList = new ArrayList<>();
+        mList.add(new Member(1, "kim", "1234", "김네임", 10000));
+        mList.add(new Member(2, "lee", "1004", "이네임", 5000));
+        mList.add(new Member(3, "choi", "4321", "최네임", 1000));
+
         request.setAttribute("names", names);
         request.setAttribute("list", list);
         request.setAttribute("map", map);
+        request.setAttribute("mList", mList);
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("test09.jsp");
         dispatcher.forward(request, response);
