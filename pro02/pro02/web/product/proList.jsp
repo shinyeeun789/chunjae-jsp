@@ -21,7 +21,7 @@
                 </ol>
             </div>
         </nav>
-        <h2 class="title"> 상품 리스트 </h2>
+        <h2 class="title"> 상품 목록 </h2>
         <div class="box_wrap">
             <ul class="list row">
                 <li class="col-3">
