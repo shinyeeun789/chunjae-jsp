@@ -97,4 +97,25 @@ public class NoticeDAO {
         return cnt;
     }
 
+    public int updateNotice(Notice noti) {
+        int cnt = 0;
+        DBConnect con = new PostgreCon();
+        conn = con.connect();
+        if (conn != null) {
+            System.out.println("PostgreSQL 연결 성공");
+        }
+
+        String sql = "update notice set title=?, content=? where no=?";
+        try {
+            pstmt = conn.prepareStatement(sql);
+            pstmt.setString(1, noti.getTitle());
+            pstmt.setString(2, noti.getContent());
+            pstmt.setInt(3, noti.getNo());
+            cnt = pstmt.executeUpdate();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return cnt;
+    }
+
 }
