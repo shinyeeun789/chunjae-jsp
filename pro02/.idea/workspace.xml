@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="pro02:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e3e0876-0a93-4bba-87a4-c3750d95d8c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pro01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pro01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pro02_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/pro02_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pro02_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/cos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/crypto.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/google_code_gson.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javax_json_api.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javax_mail_api.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javax_servlet_api.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jsoup.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jstl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mariadb_jdbc_java_client.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/net_markenwerk_utils_json_parser.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/postgresql.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sun_mail_javax.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_logic.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pro02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro02/src/edu/chunjae/controller/custom/MyinfoUpdateCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro02/src/edu/chunjae/controller/custom/MyInfoUpdateCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro02/src/edu/chunjae/controller/custom/MyinfoUpdateProCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro02/src/edu/chunjae/controller/custom/MyInfoUpdateProCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro02/src/edu/chunjae/controller/custom/MypageCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro02/src/edu/chunjae/controller/custom/MypageCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro02/src/edu/chunjae/controller/file/FileUploadTestCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro02/src/edu/chunjae/controller/file/FileUploadTestCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro02_1_setting.zip7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro02_3_custom.zip7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql02_1.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql02_2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql02_2_notice_.zip7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql02_상품 기능 테이블.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/admin/AddNoticeCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/admin/AddNoticeProCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/admin/DeleteNoticeCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/admin/NoticeCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/admin/NoticeListCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/admin/UpdateNoticeCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/admin/UpdateNoticeProCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/custom/IdCheckCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/custom/JoinCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/custom/JoinProCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/custom/LoginCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/custom/LoginProCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/custom/LogoutCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/custom/MyinfoUpdateCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/custom/MyinfoUpdateProCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/custom/MypageCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/custom/TermCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/file/FileUploadProTest2Ctrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/file/FileUploadProTestCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/file/FileUploadTest2Ctrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/file/FileUploadTestCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/notice/NoticeCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/notice/NoticeListCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/controller/product/ProListCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/dto/AddInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/dto/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/dto/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/dto/Custom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/dto/Delivery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/dto/Filetest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/dto/Filetest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/dto/Notice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/dto/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/dto/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/dto/Receive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/dto/Serve.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/model/CustomDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/model/DBConnect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/model/FiletestDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/model/MariaDBCon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/model/NoticeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/model/PostgreCon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/test/AES256Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/test/DaoTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/test/DaoTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/test/DaoTest3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/test/DaoTest4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/test/DoaTest5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/test/DtoTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/util/AES256.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/chunjae/util/SMTPAuthenticatior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/admin/addNotice.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/admin/getNotice.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/admin/noticeList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/admin/updateNotice.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/activation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbcp-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/cos.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/crypto.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/el-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/ezmorph-1.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/javax.mail-1.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/javax.mail-api-1.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet-api-4.0.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet-api-4.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/json-20200518.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.0-jdk15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/json-parser-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/jsoup-1.12.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/jsp-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mariadb-java-client-3.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/postgresql-42.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/common.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/nav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/custom/join.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/custom/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/custom/myinfoUpdate.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/custom/mypage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/custom/term.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/errorPage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/filetest/filelist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/filetest/filelist2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/filetest/fileupload.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/filetest/fileupload2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/forbiddenErrorPage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/img02.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/sub_vs01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/sub_vs02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/sub_vs03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/img01.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/sample01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/sample02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/sample03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/sample04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/sample05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/sample06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/jquery-1.10.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/jquery-1.8.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/notFoundErrorPage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/notReadyErrorPage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/notice/getNotice.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/notice/noticeList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/nullErrorPage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/product/proList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/serverErrorPage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web/WEB-INF/web.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/pro02" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="2UPJshHqI85uUjhmc4zlAGFYYKB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/shin/jsp/pro02/pro02",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.78" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.78" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="pro02:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/pro02_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="0dffbfee-5982-4427-8a4b-d32c6cba83f8" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53455" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="pro02:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e3e0876-0a93-4bba-87a4-c3750d95d8c5" name="Changes" comment="" />
+      <created>1692835491392</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692835491392</updated>
+      <workItem from="1692835492606" duration="628000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

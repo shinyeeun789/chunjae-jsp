@@ -4,87 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f34f07-ac69-41f8-bbc1-45b28fa46630" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../jar 모음집/javax.servlet-api-4.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jar 모음집/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jar 모음집/mariadb-java-client-3.1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jar 모음집/postgresql-42.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jar 모음집/standard-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jar 모음집/tomcat-servlet-api-9.0.78.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/.idea/artifacts/pro02_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pro02/.idea/artifacts/pro02_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/.idea/libraries/lib1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pro02/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pro02/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pro02/pro02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/.idea/artifacts/pro02.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/.idea/libraries/javax_servlet_api.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/.idea/libraries/jstl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/.idea/libraries/mariadb_jdbc_java_client.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/.idea/libraries/postgresql.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/pro02.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/controller/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/controller/admin/AddNoticeCtrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/controller/admin/AddNoticeProCtrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/controller/admin/DeleteNoticeCtrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/controller/admin/NoticeCtrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/controller/admin/NoticeListCtrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/controller/admin/UpdateNoticeCtrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/controller/admin/UpdateNoticeProCtrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/controller/custom/LoginCtrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/controller/notice/NoticeCtrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/controller/notice/NoticeListCtrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/controller/product/ProListCtrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/dto/Custom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/dto/Notice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/model/CustomDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/model/DBConnect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/model/MariaDBCon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/model/NoticeDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/model/PostgreCon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/test/DaoTest1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/test/DaoTest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/test/DaoTest3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/test/DaoTest4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/src/edu/chunjae/test/DaoTest5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/WEB-INF/admin/addNotice.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/WEB-INF/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/WEB-INF/lib/el-api.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/WEB-INF/lib/javax.servlet-api-4.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/WEB-INF/lib/jsp-api.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/WEB-INF/lib/mariadb-java-client-3.1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/WEB-INF/lib/postgresql-42.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/common.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/css/nav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/custom/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/errorPage.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/footer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/header.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/images/dummy01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/images/img01.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/images/img02.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/js/jquery-1.10.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/js/jquery-1.8.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/js/nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/notFoundErrorPage.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/notice/getNotice.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/notice/noticeList.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/nullErrorPage.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/product/proList.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/pro02/web/serverErrorPage.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/project02_sql문.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02/sequence_logic.png" beforeDir="false" />
-    </list>
+    <list default="true" id="09f34f07-ac69-41f8-bbc1-45b28fa46630" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,27 +18,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/shin/jsp/pro02",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "D:/shin/jsp/pro01/src/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/shin/jsp/pro02&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/shin/jsp/pro01/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\shin\jsp\pro01\web\WEB-INF\lib" />
@@ -227,6 +147,7 @@
       <updated>1691039563192</updated>
       <workItem from="1691039564195" duration="1341000" />
       <workItem from="1692663099593" duration="8000" />
+      <workItem from="1692748964424" duration="16000" />
     </task>
     <servers />
   </component>
